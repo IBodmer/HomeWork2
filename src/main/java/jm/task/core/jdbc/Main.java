@@ -1,6 +1,9 @@
 package jm.task.core.jdbc;
 
+import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.service.UserServiceImpl;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,6 +16,7 @@ public class Main {
         usi.getAllUsers();
         usi.cleanUsersTable();
         usi.dropUsersTable();
+
 
     }
 }
